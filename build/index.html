@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Narration Player V2 Demo Testing</title>
+<style type="text/css">
+/*<![CDATA[*/
+body {
+	margin:0;
+	padding:0;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size:16px;
+	font-weight:300;
+	color:#FFF;
+	line-height:22px;
+	background-color:#333;
+}
+.advanced_player {
+	width:768px;
+	height:632px;
+	margin:10px auto;
+	outline:none;
+}
+footer {
+	font-size:14px;
+	line-height:16px;
+	color:#06F;
+}
+/*]]>*/
+</style>
+</head>
+
+<body>
+<div class="videoPlayer advanced_player">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="768" height="632" id="FlashID" tabindex="1">
+        <param name="movie" value="narrationPlayerV2.swf" />
+        <param name="quality" value="high" />
+        <param name="wmode" value="transparent" />
+        <param name="allowFullScreen" value="true" />
+        <param name="FlashVars" value="noteURL=ethan/np_v2_testing/bps_cj391_lesson1_1/assets/NoteBoxText.txt&configURL=ethan/np_v2_testing/bps_cj391_lesson1_1/assets/playerconfig.xml&tocURL=ethan/np_v2_testing/bps_cj391_lesson1_1/assets/bps_cj391_lesson1_1.xml&mainVideoURL=mp4:bps_cj391_lesson1_1" />
+        <param name="swfversion" value="6.0.65.0" />
+
+        <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+        <!--[if !IE]>-->
+        <object type="application/x-shockwave-flash" data="narrationPlayerV2.swf" width="768" height="632">
+            <!--<![endif]-->
+            <param name="quality" value="high" />
+            <param name="wmode" value="transparent" />
+            <param name="allowFullScreen" value="true" />
+            <param name="FlashVars" value="noteURL=ethan/np_v2_testing/bps_cj391_lesson1_1/assets/NoteBoxText.txt&configURL=ethan/np_v2_testing/bps_cj391_lesson1_1/assets/playerconfig.xml&tocURL=ethan/np_v2_testing/bps_cj391_lesson1_1/assets/bps_cj391_lesson1_1.xml&mainVideoURL=mp4:bps_cj391_lesson1_1" />
+            <param name="swfversion" value="6.0.65.0" />
+            <script type="text/javascript">
+/*
+var ua = navigator.userAgent; var checker = { iphone: ua.match(/(iPhone|iPod)/), blackberry: ua.match(/BlackBerry/), android: ua.match(/Android/) };
+if (checker.iphone || checker.ipod) { document.write("<div class=\"advanced_player_html5\"> <div style=\"clear:both;height:263px;position:relative;width:320px;margin-left:-8px;padding:0\"><a style=\"border:0px;\" href=\"https://mediastreamer.doit.wisc.edu/uwli-ltc/sandbox/ethansandbox/NarrationPlayer/version2/smgt220_lecture2.2.mp4\" target=\"_blank\"><img style=\"position:absolute;left:0;top:0;z-index:20;padding-top:0;height:263px;width:320px;border-width:0;margin:0\" src=\"https://mediastreamer.doit.wisc.edu/uwli-ltc/media/video_players/assets/images/advanced_html5_play_button.png\" /><img style=\"position:absolute;top:0;z-index:10;height:263px;width:320px;left:0;border-width:0;margin:0;padding:0\" src=\"https://mediastreamer.doit.wisc.edu/uwli-ltc/sandbox/ethansandbox/NarrationPlayer/version2/assets/images/pi.jpg\" /></a></div></div>");
+} else  { document.write("<div class=\"advanced_player_html5\"> <div style=\"clear:both;height:632px;position:relative;width:768px;padding:0\"><a style=\"border:0px;\" href=\"https://mediastreamer.doit.wisc.edu/uwli-ltc/sandbox/ethansandbox/NarrationPlayer/version2/smgt220_lecture2.2.mp4\" target=\"_blank\"><img style=\"position:absolute;left:0;top:0;z-index:20;padding-top:0;height:632px;width:768px;border-width:0;margin:0\" src=\"https://mediastreamer.doit.wisc.edu/uwli-ltc/media/video_players/assets/images/advanced_html5_play_button.png\" /><img style=\"position:absolute;top:0;z-index:10;height:632px;width:768px;left:0;border-width:0;margin:0;padding:0\" src=\"https://mediastreamer.doit.wisc.edu/uwli-ltc/sandbox/ethansandbox/NarrationPlayer/version2/assets/images/pi.jpg\" /></a></div></div>"); }
+*/
+</script>
+            <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+    </object>
+    <footer>
+        <p>Copyright &copy; 2011-2013. UWEX-CEOEL. All rights reserved.</p>
+    </footer>
+</div>
+</body>
+</html>
