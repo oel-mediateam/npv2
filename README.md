@@ -1,4 +1,3 @@
-Narration Video Player
-====
-Version 2 (LEGACY)
-This Flash-based player is discontinued and is no longer used in future course developments.
+# *DEPRECATED: No longer in active development.*
+## Narration Video Player
+Version 2 of the Flash-based narration video player.
